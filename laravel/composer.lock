@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9c491b8531eec05ba41a11d9276a5749",
+    "content-hash": "82a36efc585b716fbf342c7f8f27d472",
     "packages": [
         {
             "name": "brick/math",
@@ -129,6 +129,46 @@
                 }
             ],
             "time": "2023-12-11T17:09:12+00:00"
+        },
+        {
+            "name": "creatomate/creatomate",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Creatomate/creatomate-php.git",
+                "reference": "4ffe3dd120992d5f18d423b95c9551f11e7f7095"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Creatomate/creatomate-php/zipball/4ffe3dd120992d5f18d423b95c9551f11e7f7095",
+                "reference": "4ffe3dd120992d5f18d423b95c9551f11e7f7095",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^7.0",
+                "php": ">=7.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Creatomate\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Casper Kloppenburg",
+                    "email": "casper@creatomate.com"
+                }
+            ],
+            "description": "Official PHP SDK for the Creatomate video rendering API",
+            "support": {
+                "source": "https://github.com/Creatomate/creatomate-php/tree/1.0.1"
+            },
+            "time": "2023-09-07T13:00:00+00:00"
         },
         {
             "name": "dflydev/dot-access-data",
